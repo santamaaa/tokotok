@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "username": "john_d",
+        "review": [
+            { "head": "Excellent Service!" },
+            { "body": "I've been shopping here for months, and I've never been disappointed. The customer service is top-notch, and my orders always arrive on time. Highly recommended!" }
+        ],
+        "rate": 5
+    },
+    {
+        "id": 2,
+        "name": "Jane Smith",
+        "username": "jn_smth",
+        "review": [
+            { "head": "Great Quality Products" },
+            { "body": "The quality of the products is outstanding. Everything I've bought from this store has been exactly as described and very durable. Will definitely continue to shop here." }
+        ],
+        "rate": 5
+    },
+    {
+        "id": 3,
+        "name": "Michael Brown",
+        "username": "michael_bro",
+        "review": [
+            { "head": "Fast Shipping" },
+            { "body": "I was pleasantly surprised by how quickly my order arrived. It was well-packaged and in perfect condition. Will order again soon!" }
+        ],
+        "rate": 5
+    },
+    {
+        "id": 4,
+        "name": "Emily Johnson",
+        "username": "emilyjhnson",
+        "review": [
+            { "head": "Amazing Discounts" },
+            { "body": "The discounts and deals on this site are fantastic. I managed to get some high-end products at a fraction of the cost. Thank you for saving me money!" }
+        ],
+        "rate": 5
+    },
+    {
+        "id": 5,
+        "name": "Chris Lee",
+        "username": "chrislee",
+        "review": [
+            { "head": "User-Friendly Website" },
+            { "body": "The website is easy to navigate, and the checkout process is smooth. I found everything I needed without any hassle. Great online shopping experience!" }
+        ],
+        "rate": 5
+    },
+    {
+        "id": 6,
+        "name": "Jessica Davis",
+        "username": "jess_davis",
+        "review": [
+            { "head": "Responsive CS" },
+            { "body": "Had an issue with my order, but the customer support team resolved it quickly and professionally. Very satisfied with the service." }
+        ],
+        "rate": 5
+    },
+    {
+        "id": 7,
+        "name": "David Wilson",
+        "username": "davwil",
+        "review": [
+            { "head": "High-Quality Packaging" },
+            { "body": "The items I ordered were packed with care and arrived in excellent condition. The attention to detail is much appreciated!" }
+        ],
+        "rate": 5
+    },
+    {
+        "id": 8,
+        "name": "Sarah Martinez",
+        "username": "sarah_m",
+        "review": [
+            { "head": "Variety of Products" },
+            { "body": "This store has a wide range of products to choose from. I love the diversity and the ability to find everything I need in one place." }
+        ],
+        "rate": 5
+    },
+    {
+        "id": 9,
+        "name": "Daniel Garcia",
+        "username": "danielgarcia",
+        "review": [
+            { "head": "Accurate Descriptions" },
+            { "body": "What you see is what you get. The product descriptions are very accurate, and I always know exactly what I'm purchasing. No surprises!" }
+        ],
+        "rate": 5
+    },
+    {
+        "id": 10,
+        "name": "Ashley Rodriguez",
+        "username": "ashleyr",
+        "review": [
+            { "head": "Regular Updates" },
+            { "body": "I appreciate the regular updates on my order status and tracking information. It's reassuring to know exactly when my package will arrive. Great communication!" }
+        ],
+        "rate": 5
+    }
+]
