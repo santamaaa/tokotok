@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="grid place-items-center">
       <div className="w-full">
-        <Router>
+        <Router basename="tokotok">
           <Routes>
             <Route path="/" element={ <Home /> } />
             <Route path="/about" element={ <About /> } />
