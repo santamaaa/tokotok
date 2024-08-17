@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tokotok/static/css/main.2038ede1.css",
-    "main.js": "/tokotok/static/js/main.2ff4277a.js",
+    "main.css": "/tokotok/static/css/main.36ad558f.css",
+    "main.js": "/tokotok/static/js/main.6c730511.js",
     "static/media/avatar1.jpg": "/tokotok/static/media/avatar1.ff69e24e44e2f0ae7f3d.jpg",
     "static/media/avatar3.jpg": "/tokotok/static/media/avatar3.9e4076ee8a56f2603d3a.jpg",
     "static/media/about-bg.jpg": "/tokotok/static/media/about-bg.7db5a20d2ff04bca09af.jpg",
@@ -15,10 +15,12 @@
     "static/media/service4.svg": "/tokotok/static/media/service4.de0e88318a9d967b74f5dae75ad41427.svg",
     "static/media/404.svg": "/tokotok/static/media/404.48e6f928f25c1c5dc448f5a26dd2322d.svg",
     "static/media/logo-primary.svg": "/tokotok/static/media/logo-primary.86379e6f265360bb7a8afd302f102285.svg",
-    "index.html": "/tokotok/index.html"
+    "index.html": "/tokotok/index.html",
+    "main.36ad558f.css.map": "/tokotok/static/css/main.36ad558f.css.map",
+    "main.6c730511.js.map": "/tokotok/static/js/main.6c730511.js.map"
   },
   "entrypoints": [
-    "static/css/main.2038ede1.css",
-    "static/js/main.2ff4277a.js"
+    "static/css/main.36ad558f.css",
+    "static/js/main.6c730511.js"
   ]
 }
