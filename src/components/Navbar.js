@@ -67,8 +67,8 @@ const Navbar = () => {
                     <Link to="/blog" className={pathClass('/blog')}>Blog</Link>
                 </div>
                 <div className="flex gap-4 text-sm font-semibold">
-                    <a href="/sign-in" className="w-28 h-10 grid place-items-center border-2 border-lavenderindigo rounded hover:border-lavenderindigo-80 hover:bg-lavenderindigo-80 text-limedspruce hover:text-white">Sign in</a>
-                    <a href="/sign-up" className="w-28 h-10 grid place-items-center rounded bg-lavenderindigo hover:bg-lavenderindigo-80 text-white">Sign up</a>
+                    <a href="https://github.com/santamaaa" className="w-28 h-10 grid place-items-center border-2 border-lavenderindigo rounded hover:border-lavenderindigo-80 hover:bg-lavenderindigo-80 text-limedspruce hover:text-white">Sign in</a>
+                    <a href="https://github.com/santamaaa" className="w-28 h-10 grid place-items-center rounded bg-lavenderindigo hover:bg-lavenderindigo-80 text-white">Sign up</a>
                 </div>
             </div>
 
@@ -79,8 +79,8 @@ const Navbar = () => {
                 </Link>
                 <div className="flex items-center gap-4">
                     <div className="hidden md:flex gap-4 text-sm font-semibold">
-                        <a href="/sign-in" className="w-28 h-10 grid place-items-center border-2 border-lavenderindigo rounded hover:border-lavenderindigo-80 hover:bg-lavenderindigo-80 text-limedspruce hover:text-white">Sign in</a>
-                        <a href="/sign-up" className="w-28 h-10 grid place-items-center rounded bg-lavenderindigo hover:bg-lavenderindigo-80 text-white">Sign up</a>
+                        <a href="https://github.com/santamaaa" className="w-28 h-10 grid place-items-center border-2 border-lavenderindigo rounded hover:border-lavenderindigo-80 hover:bg-lavenderindigo-80 text-limedspruce hover:text-white">Sign in</a>
+                        <a href="https://github.com/santamaaa" className="w-28 h-10 grid place-items-center rounded bg-lavenderindigo hover:bg-lavenderindigo-80 text-white">Sign up</a>
                     </div>
                     <button onClick={showMenu} className="h-7 md:h-10 aspect-square md:p-2 rounded md:bg-limedspruce text-limedspruce md:text-white">
                         <FontAwesomeIcon icon={iconIsChange} className="h-full" />
@@ -95,8 +95,8 @@ const Navbar = () => {
                         <Link to="/about" className={pathClass('/about')}>About</Link>
                         <Link to="/blog" className={pathClass('/blog')}>Blog</Link>
                         <div className="mt-20 mb-4 flex md:hidden flex-col gap-4 text-sm font-semibold">
-                            <a href="/sign-in" className="py-1.5 border-2 border-lavenderindigo rounded hover:border-lavenderindigo-80 hover:bg-lavenderindigo-80 text-limedspruce hover:text-white">Sign in</a>
-                            <a href="/sign-up" className="py-1.5 border-2 border-lavenderindigo rounded bg-lavenderindigo hover:bg-lavenderindigo-80 text-white">Sign up</a>
+                            <a href="https://github.com/santamaaa" className="py-1.5 border-2 border-lavenderindigo rounded hover:border-lavenderindigo-80 hover:bg-lavenderindigo-80 text-limedspruce hover:text-white">Sign in</a>
+                            <a href="https://github.com/santamaaa" className="py-1.5 border-2 border-lavenderindigo rounded bg-lavenderindigo hover:bg-lavenderindigo-80 text-white">Sign up</a>
                         </div>
                     </div>
                 </div>

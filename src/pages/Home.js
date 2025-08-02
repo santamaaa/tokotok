@@ -112,7 +112,7 @@ const Home = () => {
                 <div className="w-full max-w-screen-2xl m-auto px-6 py-8 md:px-12 md:py-8 lg:px-20">
                     <div className="flex items-center justify-between text-limedspruce">
                         <h3 className="text-lg font-semibold lg:text-2xl">Best Seller Products</h3>
-                        <a href="/products-best-seller" className="flex items-center gap-2 text-xs font-medium lg:text-sm hover:text-lavenderindigo group">
+                        <a href="" className="flex items-center gap-2 text-xs font-medium lg:text-sm hover:text-lavenderindigo group">
                             See all<FontAwesomeIcon icon={faArrowRightLong} className="group-hover:translate-x-1" />
                         </a>
                     </div>
