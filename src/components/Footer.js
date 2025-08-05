@@ -7,37 +7,37 @@ const Footer = () => {
     const socialMedia = [
         { 
             id: 1,
-            name: 'instagram',
+            name: 'Instagram',
             logo: faInstagram,
             url: "https://github.com/santamaaa"
         },
         { 
             id: 2,
-            name: 'facebook',
+            name: 'Facebook',
             logo: faFacebook,
             url: "https://github.com/santamaaa"
         },
         { 
             id: 3,
-            name: 'tiktok',
+            name: 'Tiktok',
             logo: faTiktok,
             url: "https://github.com/santamaaa"
         },
         { 
             id: 4,
-            name: 'x',
+            name: 'X',
             logo: faXTwitter,
             url: "https://github.com/santamaaa"
         },
         { 
             id: 5,
-            name: 'linkedin',
+            name: 'LinkedIn',
             logo: faLinkedin,
             url: "https://github.com/santamaaa"
         },
         { 
             id: 6,
-            name: 'youtube',
+            name: 'Youtube',
             logo: faYoutube,
             url: "https://github.com/santamaaa"
         },
@@ -63,7 +63,7 @@ const Footer = () => {
                     <div className="w-full flex items-center justify-center gap-4 md:gap-12 text-white">
                         {
                             socialMedia.map((data, index) => (
-                                <a key={index} href={data.url} className="pb-6 md:pb-10 text-xl md:text-2xl hover:scale-125">
+                                <a key={index} href={data.url} aria-label={data.name} className="pb-6 md:pb-10 text-xl md:text-2xl hover:scale-125">
                                     <FontAwesomeIcon icon={data.logo} />
                                 </a>
                             ))

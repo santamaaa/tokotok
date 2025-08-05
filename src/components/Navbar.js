@@ -82,7 +82,7 @@ const Navbar = () => {
                         <a href="https://github.com/santamaaa" className="w-28 h-10 grid place-items-center border-2 border-lavenderindigo rounded hover:border-lavenderindigo-80 hover:bg-lavenderindigo-80 text-limedspruce hover:text-white">Sign in</a>
                         <a href="https://github.com/santamaaa" className="w-28 h-10 grid place-items-center rounded bg-lavenderindigo hover:bg-lavenderindigo-80 text-white">Sign up</a>
                     </div>
-                    <button onClick={showMenu} className="h-7 md:h-10 aspect-square md:p-2 rounded md:bg-limedspruce text-limedspruce md:text-white">
+                    <button onClick={showMenu} aria-label="Menus" className="h-7 md:h-10 aspect-square md:p-2 rounded md:bg-limedspruce text-limedspruce md:text-white">
                         <FontAwesomeIcon icon={iconIsChange} className="h-full" />
                     </button>
                 </div>

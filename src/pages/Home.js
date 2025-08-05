@@ -73,28 +73,28 @@ const Home = () => {
                 <div className="w-full max-w-screen-2xl m-auto px-6 py-8 md:px-12 md:py-12 lg:px-20 flex flex-col gap-y-6 md:grid md:grid-cols-2 md:gap-x-6 md:gap-y-12 lg:flex lg:flex-row lg:flex-wrap lg:justify-center lg:items-center lg:gap-x-20 text-limedspruce md:text-center">
                     <div className="w-full lg:w-auto flex flex-col items-start md:items-center">
                         <div className="flex flex-col items-start md:items-center">
-                            <h3 className="text-lg md:text-xl font-semibold">Free In-City Shipping</h3>
+                            <h2 className="text-lg md:text-xl font-semibold">Free In-City Shipping</h2>
                             <p className="mb-4 md:mt-1 md:mb-4 text-sm font-regular">Fast and secure delivery</p>
                         </div>
                         <img src={serviceImg1} alt="tokotok-illustration" className="w-1/2 md:w-auto md:h-[160px]" />
                     </div>
                     <div className="w-full lg:w-auto flex flex-col md:flex-col-reverse items-end md:items-center">
                         <div className="flex flex-col items-end md:items-center">
-                            <h3 className="md:mt-4 md:mb-1 text-lg md:text-xl font-semibold">Secure Payment</h3>
+                            <h2 className="md:mt-4 md:mb-1 text-lg md:text-xl font-semibold">Secure Payment</h2>
                             <p className="mb-4 md:mb-0 text-sm font-regular">Highly secure payment methods</p>
                         </div>
                         <img src={serviceImg2} alt="tokotok-illustration" className="w-1/2 md:w-auto md:h-[160px]" />
                     </div>
                     <div className="w-full lg:w-auto flex flex-col items-start md:items-center">
                         <div className="flex flex-col items-start md:items-center">
-                            <h3 className="text-lg md:text-xl font-semibold">Interactive Shopping</h3>
+                            <h2 className="text-lg md:text-xl font-semibold">Interactive Shopping</h2>
                             <p className="mb-4 md:mt-1 md:mb-4 text-sm font-regular">Engaging shopping experience</p>
                         </div>
                         <img src={serviceImg3} alt="tokotok-illustration" className="w-1/2 md:w-auto md:h-[160px]" />
                     </div>
                     <div className="w-full lg:w-auto flex flex-col md:flex-col-reverse items-end md:items-center">
                         <div className="flex flex-col items-end md:items-center">
-                            <h3 className="md:mt-4 md:mb-1 text-lg md:text-xl font-semibold">24/7 Customer Service</h3>
+                            <h2 className="md:mt-4 md:mb-1 text-lg md:text-xl font-semibold">24/7 Customer Service</h2>
                             <p className="mb-4 md:mb-0 text-sm font-regular">We offer online support</p>
                         </div>
                         <img src={serviceImg4} alt="tokotok-illustration" className="w-1/2 md:w-auto md:h-[160px]" />
@@ -111,8 +111,8 @@ const Home = () => {
             <section className="w-full bg-white">
                 <div className="w-full max-w-screen-2xl m-auto px-6 py-8 md:px-12 md:py-8 lg:px-20">
                     <div className="flex items-center justify-between text-limedspruce">
-                        <h3 className="text-lg font-semibold lg:text-2xl">Best Seller Products</h3>
-                        <a href="" className="flex items-center gap-2 text-xs font-medium lg:text-sm hover:text-lavenderindigo group">
+                        <h2 className="text-lg font-semibold lg:text-2xl">Best Seller Products</h2>
+                        <a href="/tokotok" className="flex items-center gap-2 text-xs font-medium lg:text-sm hover:text-lavenderindigo group">
                             See all<FontAwesomeIcon icon={faArrowRightLong} className="group-hover:translate-x-1" />
                         </a>
                     </div>
@@ -169,7 +169,7 @@ const Home = () => {
 
             <section className="w-full bg-rubberduckyellow">
                 <div className="w-full max-w-screen-2xl m-auto flex flex-col px-6 py-8 md:px-12 md:py-8 lg:px-20">
-                    <h3 className="text-xl font-bold lg:text-2xl text-limedspruce text-center lg:tracking-widest">What People Says</h3>
+                    <h2 className="text-xl font-bold lg:text-2xl text-limedspruce text-center lg:tracking-widest">What People Says</h2>
                     <div className="w-full mt-4 pb-2 grid gap-4">
                         <Marquee pauseOnHover className="w-full flex rounded-sm">
                             {
